@@ -1,5 +1,8 @@
 # labs-censo-migracao
-Repositório com os códigos para produzir arquivos de migração de laboratórios para o Censo da Educação Superior
+Repositório com os scripts em python para produzir arquivos de migração de laboratórios para o Censo da Educação Superior
+
+O script gera um arquivo .txt para ser submetido à funcionalidade de migração de laboratórios no site do censo da educação superior <br/>
+https://censosuperior.inep.gov.br/censosuperior
 
 ## IMPORTANTE:
 Só funciona com planilhas que estejam formatadas conforme a planilha de exemplo (note as fórmulas utilizadas na aba "Migracao")
@@ -40,7 +43,7 @@ Executar notebook .ipynb, ou:
   
         python migracao_labs.py 
 
-  O programa iniciará a execução
+  O programa iniciará a execução.
 
   <b> 3.5. Siga as instruções na tela </b> <br/>
   Será solicitado o nome da planilha e da aba da planilha, é preciso digitá-los corretamente, incluindo maiúsculas e minúsculas. <br/>
